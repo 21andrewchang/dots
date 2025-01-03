@@ -1,29 +1,44 @@
-body {
-  font-family: Arial, sans-serif;
+/* Basic Reset */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure the container spans the full viewport */
+html,
+body {
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
+  display: flex; /* Allow the container to expand */
+}
+
+/* Full container */
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #020202;
+  flex-grow: 1;
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
 }
 
-h1 {
-  color: #ffffff;
+/* Left tab (sidebar) */
+.left-tab {
+  width: 30%; /* Adjust as needed */
+  background-color: #020202; /* Light gray */
+  padding: 20px;
+  overflow-y: auto; /* Scroll if content overflows */
 }
 
-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
+/* Divider */
+.divider {
+  width: 1px; /* Thickness of the vertical line */
+  background-color: #1f1f1f; /* Divider color */
 }
 
-button:hover {
-  background-color: #0056b3;
+/* Right view (main area) */
+.right-view {
+  flex-grow: 1; /* Take up the remaining space */
+  background-color: #020202; /* White background */
+  padding: 20px;
+  overflow-y: auto; /* Scroll if content overflows */
 }

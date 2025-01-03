@@ -18,5 +18,11 @@ Build habits by creating awareness; The more you are aware of something, the mor
   - [ ] Should have a timestamp and can see description
 
 - [ ] Create tags for habits so you can organize them
+
   - for example finance, health, work etc.
   - for league, it could be earlygame, mechanics, trading, etc.
+
+- [ ] Riot API integration
+  - automatically loads in stats from your match history
+  - recommends things to work on
+    - for example if you have high deaths, it recommends dying less
