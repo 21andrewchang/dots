@@ -1,5 +1,6 @@
 # dots
 
+dots represents your thoughts
 Build habits by creating awareness; The more you are aware of something, the more likely change is bound to occur
 
 ## Specs
