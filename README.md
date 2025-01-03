@@ -13,4 +13,9 @@ Build habits by creating awareness; The more you are aware of something, the mor
   - [ ] Can add a description
 
 - [ ] Can see dots added today in a list
+
   - [ ] Should have a timestamp and can see description
+
+- [ ] Create tags for habits so you can organize them
+  - for example finance, health, work etc.
+  - for league, it could be earlygame, mechanics, trading, etc.
